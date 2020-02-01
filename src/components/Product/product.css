@@ -1,0 +1,27 @@
+.productCard {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.productImg {
+  max-width: 300px;
+}
+.productName {
+  margin-bottom: -0.6em;
+}
+.productPrice {
+  padding-top: 0;
+}
+#addProductMsg {
+  background-color: white;
+  padding: 0.6em 1.2em;
+  color: blueviolet;
+  border: solid 1px blueviolet;
+  position: fixed;
+  top: 10vh;
+  right: 5vw;
+}
+@media screen and (min-width: 768px) {
+}

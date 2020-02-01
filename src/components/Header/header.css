@@ -1,0 +1,20 @@
+header {
+  width: 100vw;
+  background: black;
+  box-shadow: #00000020 0.2em 0.2em 0.2em 0.2em;
+}
+#logo {
+  margin-left: 7vw;
+  letter-spacing: -0.08em;
+  color: white;
+}
+header,
+header > nav > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header > nav {
+  position: absolute;
+  right: 7vw;
+}

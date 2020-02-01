@@ -1,0 +1,10 @@
+@media screen and (min-width: 768px) {
+  #shopWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 3vh 7vw;
+  }
+}
